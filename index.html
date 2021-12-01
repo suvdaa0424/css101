@@ -4,9 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CSS 101</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body { background-color: lightseagreen;}
+        h1 { color:magenta}
+        h2 { color:red}
+        .border {
+            border: 2px solid black;
+            padding: 10px;
+        }
+        .dashed-border {
+            border: 4px dashed purple;
+            padding: 5px;
+        }
+        #title {
+            text-transform: uppercase;
+        }
+    </style>
 </head>
 <body>
-    
+    <div>
+        <h1 class="border" style="color: lightsalmon">CSS 101</h1>
+        <h1>CSS Testing!</h1>
+        <h2 id="title">This is a H2 element</h2>
+        <p class="border">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, laboriosam quaerat. Aliquam voluptates magnam mollitia possimus praesentium veniam, ea provident nihil impedit nobis natus consectetur, temporibus, minus doloribus sapiente vero.</p>
+        <p class="dashed-border">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, laboriosam quaerat. Aliquam voluptates magnam mollitia possimus praesentium veniam, ea provident nihil impedit nobis natus consectetur, temporibus, minus doloribus sapiente vero.</p>
+    </div>
 </body>
 </html>

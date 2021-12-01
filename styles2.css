@@ -1,0 +1,10 @@
+body { 
+    background-color: yellow;
+}
+ul li:nth-last-child(2) {
+    /* or nth-last-of-type(1) */
+    background-color: green;
+}
+ul li {
+    font-style: italic;
+}
